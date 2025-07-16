@@ -1,0 +1,10 @@
+bill= float(input("enter total amount of bill:"))
+friends=int(input("enter number of friends:"))
+each_person= bill/friends
+print({each_person})
+tip=float(input("enter percentage of tip 10 to 50:"))
+if 10<= tip <=50:
+    tip_amount=bill*tip/100
+    print({tip_amount})
+total_with_tip=bill+tip_amount
+print("total amount:"{total_with_tip})

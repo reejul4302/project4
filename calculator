@@ -1,0 +1,17 @@
+a=float(input("enter a number:"))
+b=float(input("enter a number:"))
+operator=input("enter operator(+,-,*,/):")
+if operator =='+':
+    solution=a+b
+    print("solution:",solution)
+elif operator =='-':
+    solution=a-b
+    print("solution:",solution)
+elif operator =='*':
+    solution=a*b
+    print("solution:",solution)
+elif operator =='/':
+    solution=a/b
+    print("solution:",solution)
+else:
+    print("error")

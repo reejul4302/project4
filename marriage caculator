@@ -1,0 +1,14 @@
+gen=int(input("enter gender (1 for female and 2 for female):"))
+age= int(input("enter age:"))
+
+if age>=18:
+    print("you are an adult")
+    if age>=21 and gen ==1:
+        print("he can marry")
+    elif age>=18 and gen ==2:
+        print("she can marry")
+
+else:
+    print("you are not an adult")
+    print("you cant marry")
+    

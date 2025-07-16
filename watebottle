@@ -1,0 +1,13 @@
+total_bottles=int(input("total numbers of bottles:"))
+drink_per_day=int(input("total bottles drink per day:"))
+
+day = 1
+while total_bottles>0:
+    if total_bottles>=drink_per_day:
+        print(f"{total_bottles-drink_per_day}")
+        total_bottles-=drink_per_day
+    else:
+        print(f"{day} : {total_bottles}. 0 left")
+        total_bottles=0
+        day += 1
+        print("no bottles left")
